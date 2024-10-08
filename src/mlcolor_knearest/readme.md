@@ -1,7 +1,7 @@
 
 ## Machine Learning Color : K-Nearest Neighbors
 
-Use the [k-nearest neighbor](https://scikit-learn.org/stable/modules/neighbors.html) [classifier](https://scikit-learn.org/dev/modules/generated/sklearn.neighbors.KNeighborsClassifier.html) to classiy input RGB data.
+Use the [k-nearest neighbor](https://scikit-learn.org/stable/modules/neighbors.html) [classifier](https://scikit-learn.org/dev/modules/generated/sklearn.neighbors.KNeighborsClassifier.html) to classify input RGB data.
 
 Classification report for the 11-color term data is below :
 

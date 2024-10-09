@@ -24,3 +24,5 @@ Classification report for the 11-color term data is below :
    macro avg       0.88      0.88      0.88      2433
 weighted avg       0.88      0.88      0.88      2433
 ```
+
+The corresponding confusion matrix for this classifer can be [seen here](https://github.com/NMoroney/MachineLearningColor/tree/main/src/mlcolor_confusionmatrix).

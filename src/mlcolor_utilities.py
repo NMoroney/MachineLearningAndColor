@@ -43,3 +43,17 @@ def to_classes(names):
     return unique_names, to_index, to_name, classes
 
 
+def average_rgb(rgbs, bools):
+    sum = [0.0, 0.0, 0.0]
+    n = 0
+    for i in range(len(rgbs)):
+        rgb =rgbs[i]
+        if bools[i]:
+          sum[0] += rgb[0]
+          sum[1] += rgb[1]
+          sum[2] += rgb[2]
+          n += 1
+    nf = float(n)
+    ave = [sum[0] / nf, sum[1] / nf, sum[2] / nf]
+    return (ave[0] / 255.0, ave[1] / 255.0, ave[2] / 255.0)
+

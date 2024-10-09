@@ -27,9 +27,9 @@ ys = np.array([row[1] for row in rgbs_scaled])
 
 plt.scatter(xs, ys, c = 'white', marker = 'o', edgecolor = 'black',  s = 50)
 plt.axis('equal')
-plt.title("K-means : Input Red, Green and Yellow Data")
-plt.xlabel("Red")
-plt.ylabel("Green")
+plt.title("DBSCAN : Input Red, Green and Yellow Data")
+plt.xlabel("Standardized red")
+plt.ylabel("Standardized green")
 plt.savefig("mlcolor_dbscan_xys.jpg")
 
 plt.clf()
@@ -65,8 +65,8 @@ plt.scatter(xs[bn], ys[bn], s = 40, c = 'gainsboro', marker = 'o',
 plt.legend(scatterpoints=1)
 plt.grid()
 plt.title("DBSCAN : red, green, yellow")
-plt.xlabel("Red")
-plt.ylabel("Green")
+plt.xlabel("Standardized red")
+plt.ylabel("Standardized green")
 plt.axis('equal')
 plt.savefig("mlcolor_dbscan_clustered.jpg")
 

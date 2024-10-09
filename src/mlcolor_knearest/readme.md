@@ -24,3 +24,9 @@ Classification report for the 11-color term data is below :
    macro avg       0.87      0.87      0.87      2433
 weighted avg       0.87      0.87      0.87      2433
 ```
+
+---
+
+This classifer is also available as an interactive app :
+
+[<img src="/images/mlcolor_app_knearest-01.jpg" width=500px>](https://knearestcolors.streamlit.app/)

@@ -16,7 +16,7 @@ import mlcolor_utilities as mlc
 
 
 path_zip = "../../data/"
-name_zip = "ml_color-11_terms-min_670-rgbn.tsv.zip"
+name_zip = "mlcolor_11_terms_min_670_rgbn.tsv.zip"
 
 lines = mlc.zip_to_lines(path_zip, name_zip)
 rgbs, names = mlc.split_rgbn(lines, '\t')

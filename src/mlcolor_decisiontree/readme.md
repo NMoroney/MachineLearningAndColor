@@ -1,7 +1,7 @@
 
 ## Machine Learning Color : Decision Tree
 
-Use the [decision tree](https://scikit-learn.org/stable/modules/tree.html) [classifier](https://scikit-learn.org/dev/modules/generated/sklearn.tree.DecisionTreeClassifier.html) to classify input RGB data.
+Use a [decision tree](https://scikit-learn.org/stable/modules/tree.html) [classifier](https://scikit-learn.org/dev/modules/generated/sklearn.tree.DecisionTreeClassifier.html) to classify input RGB data.
 
 Classification report for the 11-color term data is below :
 

@@ -24,3 +24,4 @@ Classification report for the 11-color term data is below :
    macro avg       0.80      0.80      0.80      2433
 weighted avg       0.80      0.80      0.80      2433
 ```
+These results cane be compared to those for the [random forest](/src/mlcolor_randomforest/)

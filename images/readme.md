@@ -1,7 +1,7 @@
 
 ## Machine Learning Color : Images
 
-Images used by this repository.
+Images used more than once in this repository.
 
 ---
 

@@ -26,3 +26,5 @@ weighted avg       0.88      0.88      0.88      2433
 ```
 
 The corresponding confusion matrix for this classifer can be [seen here](https://github.com/NMoroney/MachineLearningColor/tree/main/src/mlcolor_confusionmatrix).
+
+The above results can be compared to those from a [linear SVM](/src/mlcolor_linearsvm/).

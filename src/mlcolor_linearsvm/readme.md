@@ -24,3 +24,5 @@ Classification report for the 11-color term data is below :
    macro avg       0.79      0.78      0.77      2433
 weighted avg       0.79      0.78      0.77      2433
 ```
+
+These results can be compared to those from a [radial SVM](/src/mlcolor_radialsvm/).

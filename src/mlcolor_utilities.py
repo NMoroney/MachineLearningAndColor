@@ -120,3 +120,23 @@ def in_srgb_gamut(labs):
             srgbs_in.append(srgb)
     return np.array(labs_in), np.array(srgbs_in)
 
+
+def name_matches(query, lines, delimiter):
+    matches = []
+    for line in lines :
+      ts = line.split(delimiter)
+      if len(ts) > 3 :
+        if ts[3] == query :
+          matches.append(line)
+    return matches
+
+
+def to_zip(lines, name_file):
+    s = ""
+    for line in lines:
+        s += line + "\n"
+
+    name_zip = name_file + '.zip'
+    archive = zipfile.ZipFile(name_zip, 'w', compression=zipfile.ZIP_DEFLATED)
+    archive.writestr(name_file, s)
+

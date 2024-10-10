@@ -1,7 +1,7 @@
 
 ## Machine Learning Color : Sample Plane
 
-Compute 2d color samples on a plane. 
+Compute 2D color samples on a plane. 
 
 These examples use the [CIELAB](https://en.wikipedia.org/wiki/CIELAB_color_space) color space and are limited to being inside the [sRGB](https://en.wikipedia.org/wiki/SRGB) [gamut](https://en.wikipedia.org/wiki/Gamut).
 

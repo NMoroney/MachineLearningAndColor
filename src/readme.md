@@ -3,4 +3,4 @@
 
 Mostly python source code for various algorithms.
 
-<img src="mlcolor_sampleplane/mlcolor_radial_slice-01.jpg" width=500px>
+<img src="mlc_sample_plane/mlcolor_radial_slice-01.jpg" width=500px>

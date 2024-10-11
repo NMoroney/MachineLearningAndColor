@@ -1,5 +1,5 @@
 
-## Machine Learning Color : K-Means
+## Machine Learning Color : K-Means Cluster
 
 [K-means cluster](https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_iris.html) RGB data labeled red, green or yellow.
 

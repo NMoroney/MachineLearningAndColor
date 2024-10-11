@@ -7,6 +7,8 @@ In this example, a 3 input to 17 hidden layer to 11 output network is used.
 
 <img src="2410_network_3_17_11.jpg">
 
+The above network drawing was created with the online [NN-SVG tool](https://alexlenail.me/NN-SVG/index.html).
+
 And resulted in the following result :
 
 ```

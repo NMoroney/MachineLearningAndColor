@@ -1,4 +1,6 @@
-# [2410]
+# © 2024 Numantic Solutions
+# https://github.com/NMoroney
+# MIT License
 #
 
 import math

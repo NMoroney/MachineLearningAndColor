@@ -15,7 +15,7 @@ Below is result for a subset of RGBs labeled 'black' :
 And a rough estimate of ~5% values above the knee.
 
 ```
-mcn - k-farthest :
+mlcolor - k-furthest :
 670
 [31.86417910447761, 27.27313432835821, 29.992537313432837]
 670

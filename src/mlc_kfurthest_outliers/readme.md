@@ -2,7 +2,7 @@
 
 ## Machine Learning Color : K-Furthest Outliers
 
-Look at thresholded k-furthest points (see also [mlpack's tutorial](https://github.com/mlpack/mlpack/blob/master/doc/tutorials/approx_kfn.md)) from centroid to flag possible outliers.
+Compute k-furthest points (see also [mlpack's tutorial](https://github.com/mlpack/mlpack/blob/master/doc/tutorials/approx_kfn.md)) from centroid to flag possible outliers.
 
 The furthest points are computed as the sorted inverse distances to the centroid.
 

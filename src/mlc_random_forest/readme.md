@@ -24,4 +24,4 @@ Classification report for the 11-color term data is below :
    macro avg       0.87      0.87      0.87      2433
 weighted avg       0.87      0.87      0.87      2433
 ```
-These results can be compared to those from a [decision tree](/src/mlcolor_decisiontree).
+These results can be compared to those from a [decision tree](/src/mlc_decision_tree).

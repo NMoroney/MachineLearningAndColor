@@ -10,7 +10,7 @@ The threshold or knee is computed with the [kneed](https://pypi.org/project/knee
 
 Below is result for a subset of RGBs labeled 'black' :
 
-<img src="mlcolor_kfurthest_01.jpg" width=500px>
+<img src="mlc_kfurthest_01.jpg" width=500px>
 
 And a rough estimate of ~5% values above the knee.
 

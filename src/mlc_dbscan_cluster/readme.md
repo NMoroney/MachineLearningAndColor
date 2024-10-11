@@ -1,5 +1,5 @@
 
-## Machine Color Learning : DBSCAN Clustering
+## Machine Color Learning : DBSCAN Cluster
 
 For input human labeled red, green and yellow values the [DBSCAN algorithm](https://scikit-learn.org/dev/modules/generated/sklearn.cluster.DBSCAN.html) is used to cluster the data.
 

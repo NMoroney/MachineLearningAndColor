@@ -3,6 +3,9 @@
 # MIT License
 #
 
+import math
+import PIL
+import PIL.Image
 import zipfile
 import numpy as np
 import colour
@@ -129,6 +132,64 @@ def name_matches(query, lines, delimiter):
         if ts[3] == query :
           matches.append(line)
     return matches
+
+
+def compute_centroid(query, rgbs, names):
+    sum_rgb = [ 0.0, 0.0, 0.0 ]
+    n = 0.0
+    for i, rgb in enumerate(rgbs) : 
+        if names[i] == query:
+            sum_rgb[0] += rgb[0]
+            sum_rgb[1] += rgb[1]
+            sum_rgb[2] += rgb[2]
+            n += 1.0
+    if n > 0: 
+        centroid = [ sum_rgb[0] / n, sum_rgb[1] / n, sum_rgb[2] / n ]
+    else:
+        centroid = [ math.nan, math.nan, math.nan ]
+    return centroid
+
+
+def rgb_to_patch(rgb, dim_px):
+    patch = PIL.Image.new(mode="RGB", size=(dim_px, dim_px))
+    pixel = (int(rgb[0]), int(rgb[1]), int(rgb[2]))
+    patch.paste(pixel, (0, 0, dim_px, dim_px))
+    return patch
+
+
+def rgbs_to_patch(rgbs, fill_rgb, n_upscale) :
+    dim_px = int(math.sqrt(float(len(rgbs))) + 1)
+    patch = PIL.Image.new(mode="RGB", size=(dim_px, dim_px))
+    patch.paste(fill_rgb, (0, 0, dim_px, dim_px))
+    i = 0
+    for y in range(dim_px) :
+        for x in range(dim_px) :
+            if i < len(rgbs):
+                patch.putpixel((x, y), (rgbs[i][0], rgbs[i][1], rgbs[i][2]))
+            i += 1
+    wn = dim_px * n_upscale
+    patch = patch.resize((wn, wn), PIL.Image.NEAREST)
+    return patch
+
+
+def row_paste(images):
+    wide_in, high_in = images[0].size
+    wide_out = len(images) * wide_in
+    high_out = high_in
+    row = PIL.Image.new(mode="RGB", size=(wide_out, high_out))
+    row.paste((0, 0, 0), (0, 0, wide_out, high_out))
+
+    all_equal = True
+    for image in images:
+        wn, hn = image.size
+        if wn != wide_in or hn != high_in:
+            all_equal = False
+    assert all_equal, "row paste requires all input images to be of the same size."
+
+    for i in range(len(images)):
+        x = i * wide_in
+        PIL.Image.Image.paste(row, images[i], (x, 0))
+    return row
 
 
 def to_zip(lines, name_file):

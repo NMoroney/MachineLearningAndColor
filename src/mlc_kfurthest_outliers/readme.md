@@ -6,7 +6,7 @@ Compute k-furthest points (see also [mlpack's tutorial](https://github.com/mlpac
 
 The furthest points are computed as the sorted inverse distances to the centroid.
 
-The threshold or knee is computed with the [kneed](https://pypi.org/project/kneed/) library implementation of [kneedle](https://raghavan.usc.edu/papers/kneedle-simplex11.pdf) algorithm.
+The threshold or knee is computed with the [kneed](https://pypi.org/project/kneed/) library implementation of the [kneedle](https://raghavan.usc.edu/papers/kneedle-simplex11.pdf) algorithm.
 
 Below is result for a subset of RGBs labeled 'black' :
 

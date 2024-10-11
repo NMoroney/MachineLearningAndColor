@@ -5,10 +5,10 @@
 
 The red and green values for the input data are shown below :
 
-<img src="mlcolor_kmeans_xys.jpg" width=500px>
+<img src="mlc_kmeans_xys.jpg" width=500px>
 
 After clustering, the corresponding k=3 clusters as plotted :
 
-<img src="mlcolor_kmeans_clustered.jpg" width=500px>
+<img src="mlc_kmeans_clustered.jpg" width=500px>
 
 The centroids are shown as diamonds and the point coloring was computed directly from the input RGB values.

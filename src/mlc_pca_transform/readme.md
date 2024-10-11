@@ -5,9 +5,9 @@ Perform dimensioanlity reduction using [Principle Component Analysis](https://sc
 
 The input is spectral data (36 dimensions) for the Optical Society of America (OSA) [Uniform Color Scales](https://en.wikipedia.org/wiki/OSA-UCS).
 
-Principle Component Analysis is used to reduce this spectral data to 3 dimensions which can then be plotted as :
+Principle Component Analysis is used to transform this spectral data to 3 dimensions which can then be plotted as :
 
-<img src="mlcolor_pca_osa_ucs_spectra-01.jpg" width=500px>
+<img src="mlc_pca_osa_ucs_spectra-01.jpg" width=500px>
 
 
 

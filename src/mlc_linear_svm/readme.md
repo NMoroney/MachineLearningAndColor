@@ -25,4 +25,4 @@ Classification report for the 11-color term data is below :
 weighted avg       0.79      0.78      0.77      2433
 ```
 
-These results can be compared to those from a [radial SVM](/src/mlcolor_radialsvm/).
+These results can be compared to those from a [radial SVM](/src/mlc_radial_svm/).

@@ -3,7 +3,7 @@
 
 Use the [isolation forest](https://scikit-learn.org/1.5/modules/generated/sklearn.ensemble.IsolationForest.html) algorithm to identify possible outliers in black, gray and white labeled RGB data.
 
-This analysis approximately 10% of data as being anomalous for this dataset.
+This analysis estimates approximately 10% of data as being anomalous for this dataset.
 
 ```
 mlcolor - isolation forest :

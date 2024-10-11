@@ -5,7 +5,7 @@
 
 import sys
 sys.path.insert(0, '../')
-import mlcolor_utilities as mlc
+import mlc_utilities as mlc
 
 
 print("mlcolor - centroid process :")

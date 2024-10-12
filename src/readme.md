@@ -1,5 +1,5 @@
 
-## Machine Learning Color : Source
+## Machine Learning and Color : Source
 
 Mostly python source code for various algorithms.
 

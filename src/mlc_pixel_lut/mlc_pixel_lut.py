@@ -1,4 +1,6 @@
-# [2405]
+# © 2024 Numantic Solutions
+# https://github.com/NMoroney
+# MIT License
 #
 
 import numpy as np

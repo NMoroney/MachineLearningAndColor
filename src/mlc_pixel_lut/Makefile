@@ -1,8 +1,6 @@
-# [2410]
-#
-
-#
-# * about a minute and twenty seconds to run
+# © 2024 Numantic Solutions
+# https://github.com/NMoroney
+# MIT License
 #
 
 all :

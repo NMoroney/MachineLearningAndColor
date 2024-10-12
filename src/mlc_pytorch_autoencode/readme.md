@@ -5,7 +5,7 @@ Use a [PyTorch](https://pytorch.org) [autoencoder](https://en.wikipedia.org/wiki
 
 The enocder has layers of 36 : 21 : 11 and 3. The bottleneck is therefore to three dimensions.
 
-The full encoder and decoder network is shown below :
+The full encoder and decoder network is [shown](https://alexlenail.me/NN-SVG/index.html) below :
 
 <img src="2410-autoencoder-36_21_11_3.jpg" width=300px>
 

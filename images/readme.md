@@ -1,5 +1,5 @@
 
-## Machine Learning Color : Images
+## Machine Learning and Color : Images
 
 Images used more than once in this repository.
 

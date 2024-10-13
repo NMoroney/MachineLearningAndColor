@@ -1,5 +1,5 @@
 
-# Machine Learning and Color
+# Machine Learning And Color
 
 Data, source code, documents and apps related to machine learning and color.
 

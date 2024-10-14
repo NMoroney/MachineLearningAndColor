@@ -27,3 +27,12 @@ But color provides a nice complement to the MNIST data in the following ways :
 | Categorical context | Nominal context (zip codes) |
 | Compatible with 3D LUTs | Not applicable |
 
+---
+
+For entry points to this repository try one of these :
+
+* [apps](/apps) : if you want to try some interactive tools
+* [images](/images) : if you want a 'visual index' of the code
+* [src](/src) : if you want a bullet list of the code
+
+

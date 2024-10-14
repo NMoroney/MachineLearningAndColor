@@ -16,7 +16,7 @@ But color provides a nice complement to the MNIST data in the following ways :
 | a categorization problem | a classification problem |
 | no fixed number of categories | fixed number of classes |
 | includes multi-category (bluish green) | one class per digit |
-| 5 to 10% adversarial | no adversarial |
+| 5 to 10% adversarial | no adversarial data |
 | includes NSFW labels | entirely SFW |
 | RGB input | image input |
 | upper accuracy of 88% | upper accuracy of 99.8% |

@@ -9,7 +9,7 @@ First, why machine learn colors?
 
 The [MNIST handwritten digits](https://en.wikipedia.org/wiki/MNIST_database) is a widely used machine learning dataset.
 
-But color provides a nice complement to the MNIST dataset in the following ways :
+But color provides a nice complement to the MNIST data in the following ways :
 
 | colors | handwritten digits |
 | --- | --- |

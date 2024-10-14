@@ -5,7 +5,7 @@ Data, source code, documents and apps related to machine learning and color.
 
 <img src="images/mlcolor_pencils_01.png" width=500px>
 
-First, why learn color? 
+First, why machine learn colors? 
 
 The [MNIST handwritten digits](https://en.wikipedia.org/wiki/MNIST_database) is a widely used machine learning dataset.
 

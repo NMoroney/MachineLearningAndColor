@@ -13,17 +13,17 @@ But color provides a nice complement to the MNIST data in the following ways :
 
 | colors | handwritten digits |
 | --- | --- |
-| a categorization problem | a classification problem |
-| no fixed number of categories | fixed number of classes |
-| includes multi-category (bluish green) | one class per digit |
-| 5 to 10% adversarial | no adversarial data |
-| includes NSFW labels | entirely SFW |
-| RGB input | image input |
-| upper accuracy of 88% | upper accuracy of 99.8% |
-| token label | character label |
-| many misspellings | not applicable |
-| includes [hapaxes](https://en.wikipedia.org/wiki/Hapax_legomenon) | not applicable |
-| a direct visualization attribute | not applicable |
-| categorical context | nominal context (zip codes) |
-| compatible with 3D LUTs | not applicable |
+| A categorization problem | A classification problem |
+| No fixed number of categories | Fixed number of classes |
+| Includes multi-category (bluish green) | One class per digit |
+| 5 to 10% adversarial data | No adversarial data |
+| Includes NSFW labels | Entirely SFW labels |
+| Red, green & blue as input | Image input |
+| Upper accuracy of 88% | Upper accuracy of 99.8% |
+| Token label | Character label |
+| Many misspellings | Not applicable |
+| Includes [hapaxes](https://en.wikipedia.org/wiki/Hapax_legomenon) | Not applicable |
+| A direct visualization attribute | Not applicable |
+| Categorical context | Nominal context (zip codes) |
+| Compatible with 3D LUTs | Not applicable |
 

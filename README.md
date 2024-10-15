@@ -29,7 +29,7 @@ But color provides a nice complement to the MNIST data in the following ways :
 
 ---
 
-For entry points to this repository try one of these :
+Some entry points for this repository :
 
 * [apps](/apps) : if you want to try some interactive tools
 * [images](/images) : if you want a 'visual index' of the code

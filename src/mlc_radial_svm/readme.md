@@ -1,5 +1,5 @@
 
-## Machine Learning : Radial SVM
+## Machine Learning and Color : Radial SVM
 
 Use the radial [Support Vector Machine (SVM)](https://scikit-learn.org/stable/modules/svm.html) [classifier](https://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html) to classify input RGB data.
 

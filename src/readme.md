@@ -3,7 +3,7 @@
 
 Mostly python source code for various algorithms, analysis and visualization.
 
-<img src="mlc_sample_plane/mlcolor_radial_slice-01.jpg" width=250px>
+<img src="mlc_lut_to_gif/mlcolor_lut-knn-11-65x65x65.gif" width=128px>
 
 * Pre-Process
   * [centroid process](mlc_centroid_process/)
@@ -11,6 +11,7 @@ Mostly python source code for various algorithms, analysis and visualization.
   * [k-furthest outliers](mlc_kfurthest_outliers/)
 * Visualization
   * [sample plane](mlc_sample_plane/)
+  * [LUT to GIF](/src/mlc_lut_to_gif/)
 * Clustering
   * [DBSCAN cluster](mlc_dbscan_cluster/) 
   * [k-means cluster](mlc_kmeans_cluster/) 

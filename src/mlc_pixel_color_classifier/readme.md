@@ -15,3 +15,7 @@ Is the per-pixel color term classified image below :
 
 ---
 
+There is also an interactive Streamlit application based on this :
+
+[<img src="/images/mlcolor_app_pixel_color_classifier-01.jpg" width=400px>](https://pixelcolorclassifier.streamlit.app)
+

@@ -24,6 +24,7 @@ Mostly python source code for various algorithms, analysis and visualization.
   * [PyTorch neural network](mlc_pytorch_network/)
 * Pixel
   * [3D LUT](mlc_pixel_lut/)
+  * [pixel color classifier](mlc_pixel_color_classifier/)
 * Dimensionality Reduction : Spectra
   * [PCA transform](mlc_pca_transform/)
   * [PyTorch autoencode](mlc_pytorch_autoencode/)

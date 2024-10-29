@@ -15,7 +15,7 @@ Mostly python source code for various algorithms, analysis and visualization.
 * Clustering
   * [DBSCAN cluster](mlc_dbscan_cluster/) 
   * [k-means cluster](mlc_kmeans_cluster/) 
-* Classifiers
+* Classifiers : RGB to color term
   * [logistic regression](mlc_logistic_regression/)
   * [decision tree](mlc_decision_tree/)
   * [random forest](mlc_random_forest/)

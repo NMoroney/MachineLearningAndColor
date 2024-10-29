@@ -3,7 +3,7 @@
 
 Data, source code, documents and apps related to machine learning and color.
 
-This material complements the [CIC32](https://www.imaging.org/IST/IST/Conferences/CIC/CIC2024/CIC_Home.aspx) upcoming [short course #09](https://www.imaging.org/IST/Conferences/CIC/CIC2024/CIC_Home.aspx?WebsiteKey=6d978a6f-475d-46cc-bcf2-7a9e3d5f8f82&8a93a38c6b0c=3#8a93a38c6b0c).
+This material complements the recent [CIC32](https://www.imaging.org/IST/IST/Conferences/CIC/CIC2024/CIC_Home.aspx) [short course #09](https://www.imaging.org/IST/Conferences/CIC/CIC2024/CIC_Home.aspx?WebsiteKey=6d978a6f-475d-46cc-bcf2-7a9e3d5f8f82&8a93a38c6b0c=3#8a93a38c6b0c).
 
 <img src="images/mlcolor_pencils_01.png" width=500px> → [attribution](https://commons.wikimedia.org/wiki/File:Colouring_pencils.jpg)
 
